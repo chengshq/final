@@ -28,6 +28,6 @@ class FlightSchedule:
 				longest_flight_origin = flight[2]
 				longest_flight_destination = flight[3]
 				longest_flight_miles = float(flight[4])
-				longest_flight_passengers = float(flight[5])
+				longest_flight_passengers = int(flight[5])
 
 		return longest_flight 
